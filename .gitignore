@@ -20,3 +20,4 @@ tmp/**
 
 # envfile
 webapp/ruby/env.sh
+.env
