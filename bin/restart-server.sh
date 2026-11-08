@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+export PATH="$HOME/.local/ruby/bin:$PATH"
+
 cd ~/private-isu
 git pull
 
