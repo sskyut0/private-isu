@@ -16,4 +16,7 @@ portal/tmp
 !/portal/log/.keep
 /portal/tmp
 .vagrant
+tmp/**
+
+# envfile
 webapp/ruby/env.sh
