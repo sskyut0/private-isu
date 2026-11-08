@@ -13,6 +13,8 @@ module Isuconp
     # refs: https://github.com/advisories/GHSA-hxx2-7vcw-mqr3
     set :host_authorization, { permitted_hosts: [] }
 
+    enable :logging
+
     UPLOAD_LIMIT = 10 * 1024 * 1024 # 10mb
 
     POSTS_PER_PAGE = 20
